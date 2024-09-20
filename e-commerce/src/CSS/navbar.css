@@ -1,0 +1,48 @@
+.navbar-wrapper{
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+.navbar-left{
+    font-size: 30px;
+    cursor: pointer;
+
+}
+.navbar-center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid gray;
+    cursor: pointer;
+    
+}
+.navbar-center input{
+    outline: none;
+    width: 250px;
+}
+.navbar-right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 20px;
+    cursor: pointer;
+}
+.shopping-count{
+    position: relative;
+    
+}
+.count{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    border-radius: 50%;
+    background-color: rgb(56, 100, 243);
+    color: white;
+    font-size: 12px;
+    font-weight: 500;
+    width: 20px;
+    height: 20px;
+    right: -10px;
+    top: -5px;
+}
